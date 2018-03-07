@@ -1,4 +1,4 @@
-# EmployeeRestExample
+# ManageEmployee | A Rest Service Example
 
 The project is an example for a REST service that exposes an Employee Resource.
 
@@ -28,7 +28,7 @@ Java version: 1.8.0_102, vendor: Oracle Corporation
 mvn package
 mvn spring-boot:run
 ```
-2. Voila ! The server is Up and Running !
+3. Voila ! The server is Up and Running !
 
 ### Installing
 
@@ -62,6 +62,8 @@ The output should look similar to below. The data may look different.
 The current version of the application comes with a set of [Postman](https://www.getpostman.com/). The requests are work in progress and are currently without assertions and automations.
 
 However, the requests serve as a good starting point to check the functionality of the application.
+
+[Postman](https://www.getpostman.com/) Requests Collection can be found at: _/src/main/resources/Employee.postman_collection.json_
 
 ### What the test requests cover
 
