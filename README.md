@@ -22,12 +22,13 @@ Java version: 1.8.0_102, vendor: Oracle Corporation
 
 ## Getting Started
 
-1. Pull from Github
-2. At the Project root, run the following maven commands, to get it running.
+1. Clone Repository from Github
+2. At the Project root, run the following maven commands.
 ```
 mvn package
 mvn spring-boot:run
 ```
+2. Voila ! The server is Up and Running !
 
 ### Installing
 
@@ -39,7 +40,7 @@ You can test it by getting all employees, using the following URL:
 ```
 http://localhost:8080/employee/1
 ```
-__Note:__ The REST service produces and consumes only JSON data. So you can test using a tool like Postmaster.
+__Note:__ The REST service produces and consumes only JSON data. You can test using a tool like [Postman](https://www.getpostman.com/).
 
 The output should look similar to below. The data may look different.
 
@@ -58,9 +59,9 @@ The output should look similar to below. The data may look different.
 
 ## Running the tests
 
-The current version of the application does not support automated tests. However, there is a set of
-Postmaster requests that can be referred to. The requests are work in progress and are currently without assertions.
-However, the requests can be a good starting point to check the functionality of the application.
+The current version of the application comes with a set of [Postman](https://www.getpostman.com/). The requests are work in progress and are currently without assertions and automations.
+
+However, the requests serve as a good starting point to check the functionality of the application.
 
 ### What the test requests cover
 
