@@ -1,0 +1,399 @@
+{
+	"id": "87b7acd4-3f16-110d-4b06-17f86c244fc3",
+	"name": "Employee",
+	"description": "",
+	"order": [
+		"0027c146-9c7b-f16a-c795-64175859af15",
+		"639f6613-0671-eaf4-855b-bd4169c01887",
+		"d6a5bddd-e09a-815b-d4c7-33e2e5595e3a",
+		"af698603-06ed-1983-d75a-9860eeeb3809",
+		"4f5300e1-faa6-85b0-7599-b4df387fe9c9",
+		"afae9dfb-db29-d984-fe75-5b6393d62d11",
+		"14f27db1-6d89-50ad-ad55-1593475788b5",
+		"8c6bb796-ca4e-9531-14ce-d7c97e5d5481",
+		"8517984d-2cee-0edb-bdf2-d452f957b23c",
+		"6517305a-7df4-07c6-dc35-3359f7428f57",
+		"84b7d4bf-49e2-9406-10a2-7d461e3d34fc",
+		"16ab37b1-a567-fcf8-f0c0-f61d54f0e1d6"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1520172194467,
+	"owner": "3318090",
+	"public": false,
+	"requests": [
+		{
+			"id": "0027c146-9c7b-f16a-c795-64175859af15",
+			"headers": "",
+			"headerData": [],
+			"url": "",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "87b7acd4-3f16-110d-4b06-17f86c244fc3",
+			"data": null,
+			"dataMode": "params",
+			"name": "Get Employee",
+			"description": "\t",
+			"descriptionFormat": "html",
+			"time": 1520172196687,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "14f27db1-6d89-50ad-ad55-1593475788b5",
+			"headers": "Accept: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/employee/6",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1520342862973,
+			"name": "Delete Employee",
+			"description": "\n",
+			"collectionId": "87b7acd4-3f16-110d-4b06-17f86c244fc3",
+			"responses": []
+		},
+		{
+			"id": "16ab37b1-a567-fcf8-f0c0-f61d54f0e1d6",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/employee/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1520441534847,
+			"name": "Update Non Existing Employee",
+			"description": "\n",
+			"collectionId": "87b7acd4-3f16-110d-4b06-17f86c244fc3",
+			"responses": [],
+			"rawModeData": "    {\n        \"firstName\": \"Shay\",\n        \"middleName\": \" \",\n        \"lastName\": \"Goldschmidt\",\n        \"doB\": \"1980-01-01\",\n        \"dateOfEmployment\": \"2017-09-01\",\n        \"status\": true,\n        \"id\": 400\n    }"
+		},
+		{
+			"id": "4f5300e1-faa6-85b0-7599-b4df387fe9c9",
+			"headers": "Content-Type: application/json\nAccept: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/employee/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1520342867381,
+			"name": "Add Employee",
+			"description": "",
+			"collectionId": "87b7acd4-3f16-110d-4b06-17f86c244fc3",
+			"responses": [],
+			"rawModeData": "{\r\n    \"firstName\": \"F\",\r\n    \"middleName\": \"M\",\r\n    \"lastName\": \"L\",\r\n    \"doB\": \"1990-03-01\",\r\n    \"dateOfEmployment\": \"2014-03-01\",\r\n    \"status\": true\r\n}"
+		},
+		{
+			"id": "639f6613-0671-eaf4-855b-bd4169c01887",
+			"headers": "Accept: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/employee/400",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1520342909967,
+			"name": "Get Non Existing Employee",
+			"description": "\t",
+			"collectionId": "87b7acd4-3f16-110d-4b06-17f86c244fc3",
+			"responses": []
+		},
+		{
+			"id": "6517305a-7df4-07c6-dc35-3359f7428f57",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/employee/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1520342730936,
+			"name": "Update Employee with Null Value",
+			"description": "\n",
+			"collectionId": "87b7acd4-3f16-110d-4b06-17f86c244fc3",
+			"responses": [],
+			"rawModeData": "    {\n        \"firstName\": \"Shay\",\n        \"middleName\": \" \",\n        \"lastName\": \"Goldschmidt\",\n        \"doB\": \"1980-01-01\",\n        \"dateOfEmployment\": \"2017-09-01\",\n        \"status\": true,\n        \"id\": 3\n    }"
+		},
+		{
+			"id": "84b7d4bf-49e2-9406-10a2-7d461e3d34fc",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/employee/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1520371017449,
+			"name": "Update Employee Status",
+			"description": "Expected: Failure",
+			"collectionId": "87b7acd4-3f16-110d-4b06-17f86c244fc3",
+			"responses": [],
+			"rawModeData": "    {\n        \"firstName\": \"Shay\",\n        \"middleName\": \" \",\n        \"lastName\": \"Goldschmidt\",\n        \"doB\": \"1980-01-01\",\n        \"dateOfEmployment\": \"2017-09-01\",\n        \"status\": false,\n        \"id\": 3\n    }"
+		},
+		{
+			"id": "8517984d-2cee-0edb-bdf2-d452f957b23c",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/employee/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1520371014598,
+			"name": "Update Employee",
+			"description": "\n",
+			"collectionId": "87b7acd4-3f16-110d-4b06-17f86c244fc3",
+			"responses": [],
+			"rawModeData": "    {\n        \"firstName\": \"Shay\",\n        \"middleName\": \" \",\n        \"lastName\": \"Goldschmidt\",\n        \"doB\": \"1980-01-01\",\n        \"dateOfEmployment\": \"2017-09-01\",\n        \"status\": true,\n        \"id\": 3\n    }"
+		},
+		{
+			"id": "8c6bb796-ca4e-9531-14ce-d7c97e5d5481",
+			"headers": "Accept: application/json\nAuthorization: Basic a2VuemFuOmRlbnZlcg==\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic a2VuemFuOmRlbnZlcg==",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/employee/400",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1520441098399,
+			"name": "Delete Non Existing Employee",
+			"description": "\n",
+			"collectionId": "87b7acd4-3f16-110d-4b06-17f86c244fc3",
+			"responses": []
+		},
+		{
+			"id": "af698603-06ed-1983-d75a-9860eeeb3809",
+			"headers": "Accept: application/json\nAuthorization: Basic a2VuemFuOmRlbnZlcg==\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic a2VuemFuOmRlbnZlcg==",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/employee/all",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1520441381558,
+			"name": "Get All Employees",
+			"description": "Get All Employees.\nEmployees with status false should be filtered",
+			"collectionId": "87b7acd4-3f16-110d-4b06-17f86c244fc3",
+			"responses": []
+		},
+		{
+			"id": "afae9dfb-db29-d984-fe75-5b6393d62d11",
+			"headers": "Content-Type: application/json\nAccept: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/employee/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "87b7acd4-3f16-110d-4b06-17f86c244fc3",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Add Employee with Null Values",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1520342873024,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n    \"firstName\": \"Abc\",\n    \"lastName\": \"Aaa\",\n    \"doB\": \"1990-03-01\",\n    \"dateOfEmployment\": \"2014-03-01\"\n}\n"
+		},
+		{
+			"id": "d6a5bddd-e09a-815b-d4c7-33e2e5595e3a",
+			"headers": "Accept: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/employee/4",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1520342866629,
+			"name": "Get Inactive Employee",
+			"description": "Try to get employee with FALSE status",
+			"collectionId": "87b7acd4-3f16-110d-4b06-17f86c244fc3",
+			"responses": []
+		}
+	]
+}
